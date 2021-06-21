@@ -1,0 +1,54 @@
+{
+  "country" : {
+      "Andorra": [
+          {
+            "coords": { "lat": "42.506317","lng":"1.521835"},
+            "content": "Andorra",
+            "Hol_type": "ski",
+            "info": "Andorra is a budget skiing region for young adults.There is no direct flights from Ireland.",
+            "airlines": ["Air France","Lufthansa","RyanAir"],
+            "pic" : "andorra2.jpg"
+          }
+       ],
+      "Austria": [
+         {
+           "coords": { "lat": "47.5162","lng":"14.5501"},
+           "content": "Austria",
+           "Hol_type": "ski",
+           "info": "Austria is a popular skiing region for families",
+           "airlines": ["Lauda Air","Lufthansa","RyanAir"],
+           "pic" : "austria1.jpg"
+         }
+       ],
+      "France": [
+         {
+            "coords": { "lat": "46.2276","lng":"2.2137"},
+            "content": "France",
+            "Hol_type": "ski",
+            "info": "France has popular skiing resorts with major town and cities within easy reach",
+            "airlines": ["Aer Lingus","Air France","RyanAir"],
+            "pic" : "france1.jpg"
+        }
+       ],
+      "Italy": [
+          {
+            "coords": { "lat": "41.8719","lng":"12.5674"},
+            "content": "Italy",
+            "Hol_type": "ski", 
+            "info": "Italy has popular skiing resorts in Northern Italy bordering France,Switzerland and Austria", 
+            "airlines": ["Aer Lingus","Air Italia","British Airways"],
+            "pic" : "italy1.jpg"  
+          }
+        ],
+      "Switzerland": [
+          {
+            "coords": { "lat": "46.8182","lng":"8.2275"},
+            "content": "Switzerland",
+            "Hol_type": "ski", 
+            "info": "Switzerland has world famous skiing resorts, can be expensive", 
+            "airlines": ["Aer Lingus","British Airways","Swiss Air"],
+            "pic" : "switzerland1.jpg" 
+          }
+       ]
+    }
+  }

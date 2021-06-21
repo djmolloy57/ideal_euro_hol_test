@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDS0EOHN0g4ZwhTBVU4UHbcjNpGMDssh0E"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Ideal European Holiday</title>
+</head>
+<body>
+  <header>
+    <br>
+    <br>
+     <h1>Your Perfect European Getaway Holiday</h1>
+    <br>
+  </header>
+  <section id="site_info">
+   <div>
+    <img src="assets/images/andorra1.jpg" alt="ski picture" width="400" height="200">
+    <br>
+    <p id="intro">
+      When map of country appears with resort/hotel markers - user can click on- to check infoWindow - if he likes the country options then
+      he clicks on book button(not created yet) and it saves the marker accomadation info into a pushes array and populates a booking form dropdown
+      select resort dropdown. There will also be a select airline dropdown and date of stay from and to dates
+    </p>
+    <p id="extra">
+      Use the dropdown below to select type of holiday you woould like in Europe.
+    </p>
+
+
+   </div>
+  </section>
+  <div>
+    <br>
+    <br>
+    <br>
+
+  </div>
+
+
+  <section id="country_section">
+   <div class="container">
+     <br>
+      <div id="select_hol" class="col-md-4 col-lg-4">
+      <br>
+      <br>
+      <br>
+       <label for="country">Choose Holiday type:</label>
+        <select name="hol_picked" id="hol_picked">
+          <option value="Skiing">Skiing</option>
+          <option value="Beach">Beach</option>
+          <option value="Camping">Camping</option>
+          <option value="City_Tour">City Tour</option>
+        </select>
+        <button id="hol_btn">Get info</button>
+      </div>
+      <br>
+      <div class="row">
+
+        <div id="country1" class="col-md-4 col-lg-4">
+        </div>
+        <br>
+        <div id="map1"></div>
+        <br>
+        <div id="country2" class="col-md-4 col-lg-4">
+        </div>
+        <br>
+        <div id="map2"></div>
+        <br>
+        <div id="country3" class="col-md-4 col-lg-4">
+        </div>
+        <br>
+        <div id="map3"></div>
+        <br>
+        <div id="map_desktop"></div>
+        <div id="book_button"></div>
+        <br>
+        <div id="country4" class="col-md-4 col-lg-4">
+        </div>
+        <br>
+        <div id="map4"></div>
+        <br>
+        <div id="country5" class="col-md-4 col-lg-4">
+        </div>
+        <br>
+        <div id="map5"></div>
+        <br>
+      </div>
+   </div>
+
+  </section>
+  <section id="booking_form" class="col-md-4 col-lg-4">
+    <form>
+       <label for="name">Name:</label>
+       <input type="text" id=name>
+       <br>
+       <label for="resort">Choose Resort:</label>
+       <select name="hol_picked" id="resort">
+       </select>
+       <br>
+       <label for="airlines">Choose Airline:</label>
+       <select name="airline_picked" id="airlines" style="width: 150px;">
+       </select>
+       <br>
+    </form>
+
+  </section>
+
+
+  <br>
+<!--<div>
+  <label for="country">Choose Holiday type:</label>
+    <select name="hol_picked" id="hol_picked">
+      <option value="Skiing">Skiing</option>
+      <option value="Beach">Beach</option>
+      <option value="Camping">Camping</option>
+      <option value="City_Tour">City Tour</option>
+    </select>
+    <button id="hol_btn">Get info</button>
+</div>
+<br>-->
+
+  <script src="assets/holiday_info_map_api.js"></script>
+
+
+</body>
+</html>

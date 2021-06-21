@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+}
+#site_info{
+  height: 200px;
+  width: 400px;
+  display: block;
+}
+/*#site_info > div > p{*/
+img{
+  float: left;
+}
+#intro {
+  text-align: center;
+  float : left;
+}
+#extra {
+  float: clear;
+}
+#country1 {
+  height: 300px;
+  width: 300px;
+}
+#country2 {
+  height: 300px;
+  width: 300px;
+}
+/*#map1_1{
+  height: 800px;
+  width: 800px;
+}*/
+#map_desktop {
+  /*opacity: 0;
+  max-height: 0;
+  overflow: hidden;*/
+  height: 0px;
+  width: 0px;
+  display: none;
+
+}
+#map1{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+#map2{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+
+#map3{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+#map4{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+#map5{
+  height: 0px;
+  width: 0px;
+  display: none;
+}
+
+
+
+#country3 {
+  height: 300px;
+  width: 300px;
+}
+#country4 {
+  height: 300px;
+  width: 300px;
+}
+#country5 {
+  height: 300px;
+  width: 300px;
+}
+@media (max-width: 600px) {
+    p{
+      color: #bada55;
+      font-size: 0.6rem;
+    }
+
+}
+@media (min-width: 601px){
+  p{
+      color: purple;
+      font-size: 0.8em;
+  }
+}
